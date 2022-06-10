@@ -1,0 +1,165 @@
+@media (max-width: 1250px) {
+  .section {
+    margin-top: 10vh;
+  }
+
+  .main-header {
+    background-size: cover;
+  }
+
+  .about {
+    padding: 10px;
+    min-height: 950px;
+  }
+
+  .about img {
+    position: static;
+    margin: 1%;
+    object-fit: cover;
+  }
+
+  .about p {
+    width: 50%;
+  }
+
+  .about .about-imgs {
+    width: 45%;
+    height: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 940px) {
+  h1 {
+    bottom: 40px;
+  }
+
+  .main-header {
+    height: 40vh;
+  }
+
+  .section {
+    margin-top: 20px;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .about p {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about .about-imgs {
+    width: 75%;
+  }
+
+  .film-box .film-poster {
+    flex-basis: 50%;
+    height: 400px;
+  }
+
+  .winners-tab {
+    width: 95%;
+  }
+
+  .slide {
+    display: block;
+    height: auto;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 50vmin;
+    float: none;
+  }
+
+  .slide p {
+    font-size: 20px;
+  }
+
+  .form-window {
+    width: 80%;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    bottom: 70px;
+    font-weight: bold;
+  }
+
+  .main-header {
+    height: 30vh;
+  }
+  .about .about-imgs {
+    width: 100%;
+  }
+
+  .winners-tab .tab-btns .tab {
+    width: 90px;
+    margin: 10px;
+  }
+
+  .winners-tab .content {
+    flex-direction: column;
+  }
+
+  .winners-tab .content img {
+    width: 80%;
+    height: 350px;
+  }
+
+  .news-slider .btns-slide {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .slide img {
+    height: 300px;
+  }
+
+  .form-window {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    bottom: 110px;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .film-box .film-poster {
+    height: 300px;
+  }
+
+  .winners-tab .content img {
+    width: 100%;
+  }
+
+  .news-slider .slide-container {
+    flex-basis: 100%;
+    margin: 20px 0;
+  }
+
+  .news-slider .btns-slide {
+    order: -1;
+  }
+}

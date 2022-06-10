@@ -1,0 +1,21 @@
+@import '../colors.css';
+
+footer {
+  height: 20vh;
+  width: 100%;
+  margin-top: 10vh;
+  background-color: rgb(35, 29, 32);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer button {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin: 1%;
+}

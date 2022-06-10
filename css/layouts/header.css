@@ -1,0 +1,39 @@
+@import '../colors.css';
+
+.main-header {
+  max-width: 1300px;
+  height: 55vh;
+  margin: auto;
+  background-image: url(../../img/oscars-statues.webp);
+  background-size: cover;
+  border-radius: 5px;
+  position: relative;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-nav {
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-gold-medium);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2px 10px;
+}
+
+.main-nav a:hover {
+  color: var(--color-bright-accent);
+  transition: 0.5s;
+}

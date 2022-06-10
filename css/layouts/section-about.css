@@ -1,0 +1,40 @@
+@import '../colors.css';
+
+.about .about-imgs {
+  width: 54%;
+  height: 70vh;
+  float: right;
+  position: relative;
+}
+
+.about img {
+  position: absolute;
+}
+
+.about p {
+  width: 45%;
+  display: inline-block;
+  color: var(--color-bright-accent);
+}
+
+img#hosts {
+  top: 5%;
+  left: 2%;
+  z-index: 1;
+  height: 250px;
+}
+
+img#zendaya {
+  top: 30%;
+  left: 40%;
+  z-index: 2;
+
+  height: 300px;
+}
+
+img#group {
+  top: 50%;
+  left: 5%;
+  z-index: 3;
+  height: 250px;
+}

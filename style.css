@@ -1,0 +1,21 @@
+@import './css/colors.css';
+
+@import './css/global.css';
+
+@import './css/layouts/header.css';
+
+@import './css/layouts/section-about.css';
+
+@import './css/layouts/section-best-films.css';
+
+@import './css/layouts/section-winners.css';
+
+@import './css/layouts/section-news.css';
+
+@import './css/layouts/film-window.css';
+
+@import './css/layouts/footer.css';
+
+@import './css/layouts/form-window.css';
+
+@import './css/layouts/links.css';

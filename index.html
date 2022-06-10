@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oscars 2022</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/e2ad642f74.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Oscars 2022</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#best-films">Best Films</a></li>
+          <li><a href="#winners">Winners</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#find-more">Find more</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <hr />
+        <p>
+          The 94th Academy Awards ceremony, presented by the Academy of Motion
+          Picture Arts and Sciences (AMPAS), honored the best films released
+          between March 1 and December 31, 2021, at the Dolby Theatre in Los
+          Angeles on March 27, 2022. The ceremony was hosted by Regina Hall, Amy
+          Schumer and Wanda Sykes. It was the first ceremony since the 83rd
+          Academy Awards in 2011 to feature multiple hosts. each. Controversy
+          ensued when actor Will Smith walked onstage and slapped comedian Chris
+          Rock in the face during the ceremony, after Rock made a joke about
+          Smith's wife, Jada Pinkett Smith. The incident received heavy news
+          coverage and largely overshadowed the rest of the ceremony.
+        </p>
+        <div class="about-imgs">
+          <img id="hosts" src="img/hosts.jpg" alt="" />
+          <img id="group" src="img/main-winners.webp" alt="" />
+          <img id="zendaya" src="img/zendaya.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section best-films" id="best-films">
+      <div class="container">
+        
+        <h2>best films</h2>
+        <hr />
+        
+        <div class="film-box">
+          <a class="film-poster" href="#bf-belfast">
+            <img src="img/best-films/belfast.jpg" alt="belfast" />
+            <p>Belfast</p>
+          </a>
+          <a class="film-poster" href="#bf-coda">
+            <img src="img/best-films/coda.jpg" alt="coda" />
+            <p>Coda</p>
+          </a>
+          <a class="film-poster" href="#bf-don't-look-up">
+            <img src="img/best-films/don't look up.jpg" alt="don't look up" />
+            <p>don't look up</p>
+          </a>
+          <a class="film-poster" href="#bf-drive-my-car">
+            <img src="img/best-films/drive my car.jpg" alt="drive my car" />
+            <p>drive my car</p>
+          </a>
+          <a class="film-poster" href="#bf-dune">
+            <img src="img/best-films/dune.jpg" alt="dune" />
+            <p>dune</p>
+          </a>
+          <a class="film-poster" href="#bf-king-richard">
+            <img src="img/best-films/king richard.jpg" alt="king richard" />
+            <p>king richard</p>
+          </a>
+          <a class="film-poster" href="#bf-licorice-pizza">
+            <img src="img/best-films/licorice pizza.jpg" alt="licorice pizza" />
+            <p>licorice pizza</p>
+          </a>
+          <a class="film-poster" href="#bf-nightmare-alley">
+            <img
+              src="img/best-films/nightmare alley.jpg"
+              alt="nightmare alley"
+            />
+            <p>nightmare alley</p>
+          </a>
+          <a class="film-poster" href="#bf-the-power-of-the-dog">
+            <img
+              src="img/best-films/the power of the dog.jpg"
+              alt="the power of the dog"
+            />
+            <p>the power of the dog</p>
+          </a>
+          <a class="film-poster" href="#bf-west-side-story">
+            <img
+              src="img/best-films/west side story.jpg"
+              alt="west side story"
+            />
+            <p>west side story</p>
+          </a>
+          <div class="overlay hidden">
+            <div class="window film-window">
+              <i class="fa-solid fa-xmark"></i>
+              <h3 class="film-title">don't look up</h3>
+              <p class="film-desc">Two low-level astronomers must go on a giant media tour to warn mankind of an approaching comet that will destroy planet Earth.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="section winners" id="winners">
+      <div class="container">
+        <h2>winners</h2>
+        <hr />
+        <div class="winners-tab">
+          <header class="tab-btns">
+            <button class="tab tab-1 active-tab" data-content="content-1">Director</button>
+            <button class="tab tab-2" data-content="content-2">Actor</button>
+            <button class="tab tab-3" data-content="content-3">Actress</button>
+          </header>
+          <article class="content content-1">
+            <div class="text-container">
+              <h3>Jane Campion</h3>
+              <p>
+                Jane Campion has won this year's best director Oscar for helming
+                the Western drama The Power of the Dog. She is now the third
+                director who is a woman to win an Oscar, following Kathryn
+                Bigelow (in 2010 for The Hurt Locker) and Chloé Zhao (in 2021
+                for Nomadland). Campion also wrote the screenplay based on
+                Thomas Savage's 1967 novel of the same title. The story is set
+                in 1925, about two Montana ranchers: Benedict Cumberbatch plays
+                a cruel, complicated cowboy who is enraged when his brother
+                (Jesse Plemons) brings home a wife (Kirsten Dunst) and her son
+                (Kodi Smit-McPhee). All four were nominated for top acting
+                Oscars.
+              </p>
+            </div>
+            <img src="img/jane campion.jpg" alt="Jane Campion" />
+          </article>
+          <article class="content content-2 hidden">
+            <div class="text-container">
+              <h3>Will Smith</h3>
+              <p>
+                Will Smith has won the Oscar for best actor at the 94th Academy
+                Awards, currently under way at the Dolby theatre in Los Angeles.
+                Smith won the prize for his role as Richard Williams, father of
+                tennis champions Venus and Serena Williams, in King Richard, a
+                biopic that outlined Williams’ role in the sisters’ stellar
+                success. The film was directed by Reinaldo Marcus Green and
+                stars Smith in the title role, alongside Aunjanue Ellis as his
+                wife Brandy, Saniyya Sidney and Demi Singleton as Venus and
+                Serena, and Jon Bernthal as tennis coach Rick Macci. Venus and
+                Serena Williams acted as executive producers on the project.
+              </p>
+            </div>
+            <img src="img/will smith.jpg" alt="Will Smith" />
+          </article>
+          <article class="content content-3 hidden">
+            <div class="text-container">
+              <h3>Jessica Chastain</h3>
+              <p>
+                Jessica Chastain is officially an Academy Award winner. At
+                Sunday night’s Oscars 2022 ceremony, Chastain picked up the
+                best-actress statuette for her performance in The Eyes of Tammy
+                Faye, in which she portrayed the titular televangelist, Tammy
+                Faye Bakker. In her speech, she thanked director Michael
+                Showalter, costar Andrew Garfield, and the movie’s hair and
+                makeup team, who won an Oscar themselves for transforming
+                Chastain into Bakker. She then took a serious turn, noting how
+                we as a culture “are coming out of some difficult times that
+                have been filled with a lot of trauma and isolation.”
+              </p>
+            </div>
+            <img src="img/jessica chastain.jpg" alt="Jessica Chastain" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news" id="news">
+      <div class="container">
+        <h2>news</h2>
+        <hr />
+        <div class="news-slider">
+          <div class="btns-slide btn-prev"><span>&#8592</span></div>
+
+          <div class="slide-container">
+            
+            <div class="slide slide-1">
+              <p><img src="img/will smith slap.jpg" alt="Will Smith attack"> Since then he has disappeared from public view; just sporadic appearances, but nothing of an official nature.
+
+                But now it's emerging what Will Smith is up to, as he checked himself into a luxury rehab clinic to learn how to manage stress but then focused on his spirituality.
+                
+                A source consulted by US Weekly revealed the trip was a "family holiday that was already planned".
+                
+                "There had been talk of cancelling it, but Jada [Pinkett Smith] insisted," the source added.
+                
+                As a result, Smith "has been going to therapy after the Oscar incident," according to sources close to the actor after the event in which he stormed the stage and slapped Chris Rock for a joke directed at his wife, Jada Pinkett Smith.
+                
+                Now they are joined by persistent rumours that their marriage has broken up.
+                
+                "There were problems between them for years, but now they barely speak to each other. The tensions between them have been palpable," sources tell Heat Magazine.        
+              </p>
+            </div>
+          
+
+            <div class="slide slide-2">
+              <p><img src="img/amy schumer.jpg" alt="Amy Schumer"/>Two days on from Will Smith slapping presenter Chris Rock at the 94th Academy Awards, following a joke about his wife, Jada Pinkett Smith, and Hollywood appears united in feeling Smith deserves substantial reprimand for his actions.
+  
+                One of the three hosts for this year’s ceremony, Amy Schumer, has said she is still “triggered and traumatised” by the incident, and “waiting for this sickening feeling to go away from what we all witnessed”.
+                
+                Writing on Instagram, Schumer added: “I love my friend [Chris Rock] and believe he handled it like a pro. Stayed up there and gave an Oscar to his friend [Questlove] and the whole thing was so disturbing.
+                
+                “So much pain in [Will Smith], anyway I’m still in shock and stunned and sad.”</p>
+            </div>
+
+            <div class="slide slide-3">
+              
+                <p><img src="img/padro almodovar.jpg" alt="Pedro Almodovar with Zendaya">Editor’s note: The following essay was written by filmmaker Pedro Almodóvar shortly after he attended the 94th Academy Awards ceremony on Sunday. It was provided for IndieWire in an exclusive English translation. Almodóvar’s 2021 film “Parallel Mothers” was nominated for two awards: Best Actress (Penélope Cruz) and Best Original Score (Alberto Iglesias).
+  
+                  Yesterday was an exhausting day, especially in the evening. One of the secret reasons I have for being in Los Angeles (as well as going hand in hand with Penélope to the Dolby Theatre and experiencing in situ if her nomination still has a road to travel or if the prize was the nomination) is to meet with some actors as I think about the cast for my next film, which is starring Cate Blanchett and based on five stories by Lucia Berlin from her book “A Manual for Cleaning Women.” It’s an open secret, but I can’t discuss it, on orders from my production company El Deseo. You shouldn’t talk about things until they’re signed, sealed and settled with contracts.</p>
+            </div>
+
+          </div>
+
+          <div class="btns-slide btn-next"><span>&#8594</span></div>
+          <p class="dots">
+              <span class="dot dot-1 marked" data-val="1">&bull;</span>
+              <span class="dot dot-2" data-val="2">&bull;</span>
+              <span class="dot dot-3" data-val="3">&bull;</span>  
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="find-more">
+      <div class="links-view hidden">
+        
+        <a href="https://www.facebook.com/AcademyAwards2022/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.imdb.com/event/ev0000003/2022/1/" target="_blank"><i class="fa-brands fa-imdb"></i></a>
+        <a href="https://twitter.com/hashtag/oscars2022" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.oscars.org/oscars/ceremonies/2022" target="_blank"><i class="fa-solid fa-film"></i></a>
+      </div>
+        <button class="btn-links">Links</button>
+        <button class="btn-form">Message</button>
+    </footer>
+  
+    <aside>
+      <div class="overlay form-overlay hidden">
+        <div class="window form-window">
+          <form class="form" action="https://formspree.io/f/mgedlqop" method="POST">
+            <label for="first">Name</label>
+            <input name="name" type="text" id="first" required>
+            <label for="email">e-mail</label>
+            <input name="email" type="email" id="email" required>
+            <label for="text">Message</label>
+            <textarea name="message" maxlength="500" required></textarea>
+            <input type="submit" value="Send" id="message">
+          </form>
+        </div>
+      </div>
+
+    </aside>
+
+  </body>
+</html>

@@ -1,0 +1,7 @@
+:root {
+  --color-bright-accent: rgb(183, 253, 230);
+  --color-brighter-background: rgb(53, 44, 49);
+  --color-darker-background: rgb(35, 29, 32);
+  --color-gold-light: rgba(218, 165, 32, 0.8);
+  --color-gold-medium: rgba(218, 165, 32, 0.6);
+}

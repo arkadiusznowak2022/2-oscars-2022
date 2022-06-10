@@ -1,0 +1,71 @@
+@import '../colors.css';
+
+.winners hr {
+  margin-bottom: 10vh;
+}
+
+.winners p {
+  font-size: 1.5em;
+}
+
+.winners-tab {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--color-bright-accent);
+  border-radius: 10px;
+}
+
+.winners-tab .tab-btns {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.winners-tab .tab-btns .tab {
+  height: 100%;
+  margin: 0 5%;
+  width: 20%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  cursor: pointer;
+
+  border: 2px solid rgb(57, 50, 50);
+  border-radius: 20px;
+
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.winners-tab .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.winners-tab .tab-btns .tab-1 {
+  background-color: rgb(163, 255, 191);
+}
+.winners-tab .tab-btns .tab-2 {
+  background-color: rgb(150, 232, 174);
+}
+.winners-tab .tab-btns .tab-3 {
+  background-color: rgb(217, 255, 228);
+}
+
+.winners-tab .text-container {
+  flex-basis: 50%;
+  padding: 2%;
+  align-self: center;
+}
+
+.winners-tab img {
+  width: 49%;
+  height: 500px;
+  object-fit: cover;
+  padding: 2%;
+  align-self: center;
+}
+
+.winners-tab .tab-btns .active-tab {
+  transform: translateY(-70%);
+  transition: 0.3s;
+}

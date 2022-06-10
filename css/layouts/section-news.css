@@ -1,0 +1,102 @@
+@import '../colors.css';
+
+.news-slider {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.news-slider .btns-slide {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-bright-accent);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 800;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-slider .btns-slide span {
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.news-slider .slide-container {
+  height: 66vh;
+  background-color: rgb(183, 253, 230, 0.2);
+  flex-basis: 80%;
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  top: 10px;
+  transition: 1s;
+  width: 100%;
+  height: calc(100% - 10px);
+  display: flex;
+  align-items: center;
+}
+
+.slide p {
+  color: var(--color-bright-accent);
+  font-size: 25px;
+  padding: 2%;
+}
+.slide img {
+  object-fit: cover;
+  padding: 2%;
+  float: right;
+  height: 250px;
+}
+
+.news-slider .dots {
+  height: 50px;
+  width: 20%;
+  font-size: 3.5em;
+  text-align: center;
+  color: var(--color-bright-accent);
+  cursor: default;
+
+  flex-basis: 100%;
+}
+
+.news-slider .dots .dot {
+  cursor: pointer;
+}
+
+.news-slider .dots .marked {
+  color: rgb(183, 253, 230, 0.4);
+  transition: 0.3s;
+}
+
+/* Scrollbar */
+
+.news-slider .slide-container::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+.news-slider .slide-container::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+.news-slider .slide-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
