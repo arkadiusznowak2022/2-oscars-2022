@@ -25,7 +25,7 @@ img#hosts {
 }
 
 img#zendaya {
-  top: 30%;
+  top: 40%;
   left: 40%;
   z-index: 2;
 
@@ -33,7 +33,7 @@ img#zendaya {
 }
 
 img#group {
-  top: 50%;
+  top: 60%;
   left: 5%;
   z-index: 3;
   height: 250px;
